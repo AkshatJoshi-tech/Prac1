@@ -37,6 +37,6 @@ const jsonArrayStr = `
 `;
 const itemList = JSON.parse(jsonArrayStr);
 
-itemList.forEach(function(item) {
-console.log("ID:", item.id, "| Name:", item.name);
+itemList.forEach(function (item) {
+  console.log("ID:", item.id, "| Name:", item.name);
 });
